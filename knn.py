@@ -20,7 +20,7 @@ X = digits.data
 y = digits.target
 
 # Getting the number of neighbors from the user
-neighbors = int(input("Enter the number of neighbors:"))
+neighbors = int(input("Enter the number of neighbors: "))
 
 # Training KNN Model and testing it with specific K values by getting its predictions
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=0)
